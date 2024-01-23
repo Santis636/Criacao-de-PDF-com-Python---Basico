@@ -12,7 +12,7 @@ valor_total = int(horas_estimadas) * int(valor_hora)
 pdf = FPDF()
 pdf.add_page()
 pdf.set_font("Arial")
-pdf.image('template.png', x=0, y=0)
+pdf.image(r'img\template.png', x=0, y=0)
 
 pdf.text(115, 145, projeto)
 pdf.text(115, 160, horas_estimadas)
