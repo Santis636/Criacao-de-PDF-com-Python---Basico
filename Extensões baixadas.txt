@@ -1,0 +1,3 @@
+Extensões baixadas
+pip install fpdf 
+python 3.12
